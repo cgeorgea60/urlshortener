@@ -1,0 +1,20 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "This app shortens the url provided by the user and returns the short url.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "George",
+  "license": "ISC",
+  "dependencies": {
+    "consolidate": "^0.16.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.4.0",
+    "mongoose": "^7.1.0",
+    "swig": "^1.4.2"
+  }
+}
